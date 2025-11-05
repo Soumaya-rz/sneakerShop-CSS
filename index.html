@@ -5,7 +5,6 @@
   <meta charset="utf-8" />
   <title>KOOLSKICKS le meilleur magasin de sneakers !</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="toolbox.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -13,51 +12,97 @@
 
   <nav id="navbar">
     <div class="nav-logo">
-      <img src="assets/logo.svg" alt="Logo KOOLSKICKS">
-      <h2>KOOLSKICKS</h2>
+      <img class="logo-image" src="assets/logo.svg" alt="Logo KOOLSKICKS">
+      <h2>KOOLKICKS</h2>
     </div>
 
-    <div class="nav-links">
-      <ul>
-        <li>
-          <a href="nouvautes.html">Nouveautés</a>
-        </li>
-        <li>
-          <a href="rechercher.html">Rechercher</a>
-        </li>
-        <li>
-          <a href="contacter.html">Contacter</a>
-        </li>
-      </ul>
-    </div>
+
+    <ul class="nav-links">
+      <li>
+        <a href="#">Nouveautés</a>
+      </li>
+      <li>
+        <a href="#">Rechercher</a>
+      </li>
+      <li>
+        <a href="#">Contacter</a>
+      </li>
+    </ul>
+
 
     <div class="nav-buttons">
-      <a href="#">Mon panier</a>
-      <img src="assets/image-profil.JPG" alt="profil">
+      <a href="#" class="cart-button">Mon panier</a>
+      <img class="avatar" src="assets/image-profil.JPG" alt="profil">
     </div>
   </nav>
 
   <main id="container">
     <h1>Nos dernieres sneakers</h1>
 
-    <section class="cards-container">
-      <div class="card">
+    <div class="cards-container">
+
+      <article class="card">
+        <img src="assets/shoes-1.jpg" alt="shoes-1">
         <div>
-          <img src="assets/shoes-1.jpg" alt="shoes-1">
-        </div>
-        <div>
-          <div>
-            <h2>Nike</h2>
-            <h3>120€</h3>
+          <div class="description-container">
+            <div class="brand-price-container">
+              <h2>Nike</h2>
+              <h3>120€</h3>
+            </div>
+            <p>Nos nouvelles chaussures présentent les dernières technologies, des tissus techniques et des lignes
+              tendance. <br> Livraison et retours gratuits.</p>
+            <a href="#" class="cart-button">Ajouter au panier</a>
           </div>
-          <p>Nos nouvelles chaussures présentent les dernières technologies, des tissus techniques et des lignes tendance. Livraison et retours gratuits.</p>
-          <a href="panier.html" class="cart-button">Ajouter au panier</a>
         </div>
-      </div>
-    </section>
+      </article>
+
+      <article class="card">
+        <img class="card-image" src="assets/shoes-2.jpg" alt="shoes-2">
+        <div>
+          <div class="description-container">
+            <div class="brand-price-container">
+              <h2>New Balance</h2>
+              <h3>110€</h3>
+            </div>
+            <p>Nos nouvelles chaussures présentent les dernières technologies, des tissus techniques et des lignes tendance. <br> Livraison et retours gratuits.</p>
+            <a href="#" class="cart-button">Ajouter au panier</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-image" src="assets/shoes-3.jpg" alt="shoes-3">
+        <div>
+          <div class="description-container">
+            <div class="brand-price-container">
+              <h2>Avia</h2>
+              <h3>100€</h3>
+            </div>
+            <p>Nos nouvelles chaussures présentent les dernières technologies, des tissus techniques et des lignes
+              tendance. <br> Livraison et retours gratuits.</p>
+            <a href="#" class="cart-button">Ajouter au panier</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-image" src="assets/shoes-4.jpg" alt="shoes-4">
+        <div>
+          <div class="description-container">
+            <div class="brand-price-container">
+              <h2>Adidas</h2>
+              <h3>110€</h3>
+            </div>
+            <p>Nos nouvelles chaussures présentent les dernières technologies, des tissus techniques et des lignes
+              tendance. <br> Livraison et retours gratuits.</p>
+            <a href="#" class="cart-button">Ajouter au panier</a>
+          </div>
+        </div>
+      </article>
+    </div>
   </main>
 
-  <footer>
+  <footer id="footer">
     <p>© KOOLKICKS 2023</p>
   </footer>
 

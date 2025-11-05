@@ -1,6 +1,176 @@
 /* importation de la police 'Poppins' de Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
 
-html, body{
+html,
+body {
    font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #d0cece;
 }
+
+body{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+/***** NAVBAR *****/
+#navbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 50px;
+   padding-right: 50px;
+   height: fit-content;
+   background-color: white;
+}
+
+.nav-logo {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+
+.logo-image {
+   width: 56px;
+}
+
+#navbar h2 {
+   display: flex;
+   align-items: center;
+}
+
+.nav-links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav-links a {
+   text-decoration: none;
+   color: black;
+}
+
+.nav-links {
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   list-style: none;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin: 0;
+   padding: 0;
+}
+
+.nav-buttons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 20px;
+
+}
+
+.cart-button {
+   display: flex;
+   text-decoration: none;
+   background: blueviolet;
+   color: white;
+   border-radius: 8px;
+   width: fit-content;
+   padding: 8px 16px;
+   border: 2px solid blueviolet;
+   transition: all .3s ease-in-out;
+}
+
+.avatar {
+   width: 56px;
+   height: 56px;
+   border-radius: 100%;
+   border: 2px solid black;
+}
+
+/***** NAVBAR *****/
+
+/***** MAIN *****/
+main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   flex: 1 0 auto;
+}
+
+h1 {
+   font-weight: 1000;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.cards-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 20px;
+   
+}
+
+.card {
+   width: 20%;
+   box-shadow: 1px 1px 12px #555;
+   border-radius: 5px;
+   background-color: white;
+}
+
+.card img {
+   width: 100%;
+   border-radius: 5px;
+}
+
+.brand-price-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 5vh;
+   align-items: center;
+
+}
+
+.description-container{
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   width: fit-content;
+}
+
+.card h2{
+   text-transform: uppercase;
+   font-size: 22px ;
+}
+.card h3{
+   color: blueviolet;
+}
+
+.card p{
+   font-size: 13px;
+   text-justify: auto;
+}
+
+.cart-button{
+   width: fit-content;
+   display: flex;
+
+}
+
+/***** MAIN *****/
+
+
+/***** FOOTER *****/
+
+#footer {
+   display: flex;
+   justify-content: center;
+}
+
+/***** FOOTER *****/
